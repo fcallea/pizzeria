@@ -1,0 +1,12 @@
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\bin\Debug\net5.0\Pizzas.Builder.deps.json
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\bin\Debug\net5.0\Pizzas.Builder.dll
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\bin\Debug\net5.0\ref\Pizzas.Builder.dll
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\bin\Debug\net5.0\Pizzas.Builder.pdb
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\obj\Debug\net5.0\Pizzas.Builder.csproj.AssemblyReference.cache
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\obj\Debug\net5.0\Pizzas.Builder.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\obj\Debug\net5.0\Pizzas.Builder.AssemblyInfoInputs.cache
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\obj\Debug\net5.0\Pizzas.Builder.AssemblyInfo.cs
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\obj\Debug\net5.0\Pizzas.Builder.csproj.CoreCompileInputs.cache
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\obj\Debug\net5.0\Pizzas.Builder.dll
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\obj\Debug\net5.0\ref\Pizzas.Builder.dll
+D:\DIPLOMADO\Modulo1\Tarea2\Pizzas\Pizzas.Builder\obj\Debug\net5.0\Pizzas.Builder.pdb
