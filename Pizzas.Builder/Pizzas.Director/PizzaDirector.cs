@@ -14,6 +14,7 @@ namespace Pizzas.Builder.Pizzas.Director
         public List<Pizza> Pizzas { get; set; }
         public double PrecioTotal { get; set; }
         public double PrecioPizza { get; set; }
+        public double DescuentoPizza { get; set; }
         public double PrecioDelivery { get; set; }
         public DateTime FechaPedido { get; set; }
 
@@ -25,24 +26,29 @@ namespace Pizzas.Builder.Pizzas.Director
             PrecioDelivery = 10;
         }
 
-        public void Agregar (Pizza pizza)
+        public void AgregarPedido (Pizza pizza)
         {
             Pizzas.Add(pizza);
-            PrecioPizza = PrecioPizza+pizza._precio;
+            PrecioPizza = PrecioPizza + pizza._precio;
             AplicarPromocion();
             CalcularPrecioTotal();
         }
 
         public void AplicarPromocion()
         {
+            double importeaux = 0;
             switch ((int)FechaPedido.DayOfWeek)
             {
                 case 2:
-                    PrecioPizza = PrecioPizza / 2;
+                    importeaux = PrecioPizza / 2;
+                    DescuentoPizza = DescuentoPizza + importeaux;
+                    PrecioPizza = PrecioPizza - importeaux;
                     break;
 
                 case 3:
-                    PrecioPizza = PrecioPizza / 2;
+                    importeaux = PrecioPizza / 2;
+                    DescuentoPizza = DescuentoPizza + importeaux;
+                    PrecioPizza = PrecioPizza - importeaux;
                     break;
 
                 case 4:

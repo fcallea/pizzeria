@@ -14,10 +14,11 @@ namespace Pizzas.WebApi.Dto
         public SalsaDto salsa { get; set; }
         public AgregadoDto agregado { get; set; }
 
-        public PizzaDto(int cod, string desc)
+        public PizzaDto(int cod, string desc, double prec)
         {
             codigo = cod;
             descripcion = desc;
+            precio = prec;
         }
         public PizzaDto (int cod, string desc, double _precio, MasaDto _masa, SalsaDto _salsa, AgregadoDto _agregado)
         {
